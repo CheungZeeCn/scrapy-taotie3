@@ -1,0 +1,54 @@
+2022-03-21 17:57:29,632 [scrapy.core.scraper][ERROR][scraper.py:173]: Spider error processing <GET https://learningenglish.voanews.com/z/952> (referer: None)
+Traceback (most recent call last):
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 67, in _parse
+    return self.parse(response, **kwargs)
+  File "/Users/cheungzee/PycharmProjects/iz3_scrapy/scrapy-taotie3/iz3/iz3/spiders/levoa.py", line 17, in parse
+    self.logger.debug("ori content:" + response.response.body_as_unicode())
+AttributeError: 'HtmlResponse' object has no attribute 'response'
+2022-03-21 17:57:29,632 [scrapy.core.scraper][ERROR][scraper.py:173]: Spider error processing <GET https://learningenglish.voanews.com/z/952> (referer: None)
+Traceback (most recent call last):
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 67, in _parse
+    return self.parse(response, **kwargs)
+  File "/Users/cheungzee/PycharmProjects/iz3_scrapy/scrapy-taotie3/iz3/iz3/spiders/levoa.py", line 17, in parse
+    self.logger.debug("ori content:" + response.response.body_as_unicode())
+AttributeError: 'HtmlResponse' object has no attribute 'response'
+2022-03-21 17:57:47,852 [scrapy.core.scraper][ERROR][scraper.py:173]: Spider error processing <GET https://learningenglish.voanews.com/z/952> (referer: None)
+Traceback (most recent call last):
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 67, in _parse
+    return self.parse(response, **kwargs)
+  File "/Users/cheungzee/PycharmProjects/iz3_scrapy/scrapy-taotie3/iz3/iz3/spiders/levoa.py", line 17, in parse
+    self.logger.debug("ori content:" + response.body_as_unicode())
+AttributeError: 'HtmlResponse' object has no attribute 'body_as_unicode'
+2022-03-21 17:57:47,852 [scrapy.core.scraper][ERROR][scraper.py:173]: Spider error processing <GET https://learningenglish.voanews.com/z/952> (referer: None)
+Traceback (most recent call last):
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 67, in _parse
+    return self.parse(response, **kwargs)
+  File "/Users/cheungzee/PycharmProjects/iz3_scrapy/scrapy-taotie3/iz3/iz3/spiders/levoa.py", line 17, in parse
+    self.logger.debug("ori content:" + response.body_as_unicode())
+AttributeError: 'HtmlResponse' object has no attribute 'body_as_unicode'
+2022-03-21 17:58:42,162 [scrapy.core.scraper][ERROR][scraper.py:173]: Spider error processing <GET https://learningenglish.voanews.com/z/952> (referer: None)
+Traceback (most recent call last):
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 67, in _parse
+    return self.parse(response, **kwargs)
+  File "/Users/cheungzee/PycharmProjects/iz3_scrapy/scrapy-taotie3/iz3/iz3/spiders/levoa.py", line 17, in parse
+    self.logger.debug("ori content:" + response.body)
+TypeError: can only concatenate str (not "bytes") to str
+2022-03-21 17:58:42,162 [scrapy.core.scraper][ERROR][scraper.py:173]: Spider error processing <GET https://learningenglish.voanews.com/z/952> (referer: None)
+Traceback (most recent call last):
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/Users/cheungzee/anaconda3/lib/python3.8/site-packages/scrapy/spiders/__init__.py", line 67, in _parse
+    return self.parse(response, **kwargs)
+  File "/Users/cheungzee/PycharmProjects/iz3_scrapy/scrapy-taotie3/iz3/iz3/spiders/levoa.py", line 17, in parse
+    self.logger.debug("ori content:" + response.body)
+TypeError: can only concatenate str (not "bytes") to str
